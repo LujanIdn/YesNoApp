@@ -16,7 +16,7 @@ class MyMessageBubble extends StatelessWidget {
         const SizedBox(height: 7.5),
         Container(
             decoration: BoxDecoration(
-                color: Colors.purple[200],
+                color: const Color.fromARGB(255, 255, 255, 255),
                 borderRadius: BorderRadius.circular(15)),
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),

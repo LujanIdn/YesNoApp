@@ -15,13 +15,13 @@ class HerMessageBubble extends StatelessWidget {
       children: [
         Container(
             decoration: BoxDecoration(
-                color: Colors.pink[200],
+                color: Color.fromARGB(255, 46, 46, 46),
                 borderRadius: BorderRadius.circular(15)),
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               child: Text(
                 mensaje.text,
-                style: const TextStyle(fontSize: 16),
+                style: const TextStyle(fontSize: 16, color: Colors.white),
               ),
             )),
         const SizedBox(height: 10),

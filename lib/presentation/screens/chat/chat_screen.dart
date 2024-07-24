@@ -14,7 +14,7 @@ class ChatScreen extends StatelessWidget {
     //final colors = Theme.of(context).colorScheme;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.pink[200],
+        backgroundColor: Color.fromARGB(255, 37, 37, 37),
         toolbarHeight: 70,
         leading: const Row(
           children: [
@@ -23,16 +23,16 @@ class ChatScreen extends StatelessWidget {
             ),
             CircleAvatar(
               backgroundImage: NetworkImage(
-                  'https://imgix.ranker.com/list_img_v2/8131/3168131/original/3168131?fit=crop&fm=pjpg&q=80&dpr=2&w=1200&h=720'),
+                  'https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg'),
             )
           ],
         ),
         title: const Text(
-          'Iris <3',
+          'User',
         ),
         centerTitle: false,
       ),
-      backgroundColor: Colors.lightBlue[100],
+      backgroundColor: Color.fromARGB(255, 243, 235, 235),
       body: _Chatview(),
     );
   }
