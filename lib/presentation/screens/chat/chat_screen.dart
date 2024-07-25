@@ -14,7 +14,7 @@ class ChatScreen extends StatelessWidget {
     //final colors = Theme.of(context).colorScheme;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 37, 37, 37),
+        backgroundColor: const Color.fromARGB(255, 37, 37, 37),
         toolbarHeight: 70,
         leading: const Row(
           children: [
@@ -32,7 +32,7 @@ class ChatScreen extends StatelessWidget {
         ),
         centerTitle: false,
       ),
-      backgroundColor: Color.fromARGB(255, 243, 235, 235),
+      backgroundColor: const Color.fromARGB(255, 243, 235, 235),
       body: _Chatview(),
     );
   }
